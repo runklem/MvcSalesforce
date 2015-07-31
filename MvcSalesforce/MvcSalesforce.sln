@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcSalesforce", "MvcSalesforce\MvcSalesforce.csproj", "{5ACF463B-6870-491C-8EA2-CF29F2755860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcSalesforce.Tests", "MvcSalesforce.Tests\MvcSalesforce.Tests.csproj", "{43B3B299-3012-4F3B-A3C5-E7CEC495E873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ACF463B-6870-491C-8EA2-CF29F2755860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACF463B-6870-491C-8EA2-CF29F2755860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACF463B-6870-491C-8EA2-CF29F2755860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACF463B-6870-491C-8EA2-CF29F2755860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B3B299-3012-4F3B-A3C5-E7CEC495E873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B3B299-3012-4F3B-A3C5-E7CEC495E873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B3B299-3012-4F3B-A3C5-E7CEC495E873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B3B299-3012-4F3B-A3C5-E7CEC495E873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

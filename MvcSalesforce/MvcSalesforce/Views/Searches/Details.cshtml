@@ -1,0 +1,82 @@
+﻿@model MvcSalesforce.Models.Search
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Search</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinSquareFootage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinSquareFootage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxSquareFootage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxSquareFootage)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SearchID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
