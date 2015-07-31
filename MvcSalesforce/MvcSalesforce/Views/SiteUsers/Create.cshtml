@@ -58,13 +58,21 @@
         <div class="form-group">
             @Html.LabelFor(model => model.MadisonRegion, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.MadisonRegion, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.MadisonRegion, "", new { @class = "text-danger" })
-                @*<select>
-                    <option value="Southwest (W09)">Southwest (W09)</option>
-                    <option value="Near West (W14)">Near West (W14)</option>
-                    <option value="North (E03)">North (E03)</option>
-                </select>*@
+                @*@Html.EditorFor(model => model.MadisonRegion, new { htmlAttributes = new { @class = "form-control" } })*@
+                @*@Html.ValidationMessageFor(model => model.MadisonRegion, "", new { @class = "text-danger" })*@
+                @*@Html.DropDownList(model => model.MadisonRegion, new { htmlAttributes = new { @class = "form-control" } })*@
+                <select id="MadisonRegionDropDown" class="form-control">
+                    <option value=" "></option>
+                    <option value="Southwest">Southwest</option>
+                    <option value="Far West">Far West</option>
+                    <option value="West">West</option>
+                    <option value="Near West">Near West</option>
+                    <option value="South Central">South Central</option>
+                    <option value="Isthmus">Isthmus</option>
+                    <option value="Near East">Near East</option>
+                    <option value="North">North</option>
+                    <option value="East">East</option>
+                </select>
             </div>
         </div>
 
